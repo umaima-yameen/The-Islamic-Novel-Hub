@@ -1,19 +1,26 @@
 ﻿body {
-   
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #fff0f5;
 }
+
 header {
     background-color: #ff66b2;
     padding: 10px;
     text-align: center;
 }
 
+.logo h1 {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 10px 0 0 0;
 }
 
 nav ul li {
@@ -29,18 +36,21 @@ nav ul li a {
 
 .hero {
     text-align: center;
-    padding: 50px;
+    padding: 50px 20px;
 }
 
-.hero h1 {
+.hero h2 {
     color: #ff1493;
-    font-size: 36px;
-    text-align:center;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .hero p {
     font-size: 18px;
-    color: #555;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 
 .novel-list {
@@ -50,10 +60,10 @@ nav ul li a {
 
 .novel img {
     width: 150px;
-    height: 0 auto;
+    height: auto;
     margin-bottom: 10px;
-    display:block;
-    margin bottom:20px;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .btn {
@@ -63,6 +73,11 @@ nav ul li a {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e01380;
 }
 
 footer {
@@ -71,4 +86,5 @@ footer {
     padding: 10px;
     color: white;
     margin-top: 50px;
+    font-size: 14px;
 }
